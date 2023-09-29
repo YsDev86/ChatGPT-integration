@@ -1,0 +1,23 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <Button
+        android:id="@+id/btnAdultGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adult Game" />
+
+    <Button
+        android:id="@+id/btnChildGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Child Game" />
+</LinearLayout>
